@@ -1,0 +1,84 @@
+.row, .row>* {
+    margin: 0 !important; 
+    padding:0 !important;
+    border: 0 !important;
+}
+
+.contenedorImgText{
+    position: absolute;
+    right: 5% !important;
+}
+
+body, nav, footer {
+    width: 100%;
+}
+
+.textImg{ 
+    margin-bottom: 3em;
+    padding-right: 0;
+}
+
+.contLogo{
+    margin-left: 4%;
+}
+
+.divOscurecedor{
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.716);
+    height: 100%;
+    top: 0px;
+}
+
+.carousel-item {
+    max-height: 700px;
+}
+
+.oradores{
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-bottom: 3% !important;
+}
+
+.card-group{
+    max-width: 70%;
+    gap:4%
+}
+
+.card button{
+    pointer-events: none;
+}
+
+.divNav{
+    display: flex;
+    width: 100%;
+    justify-content:space-around;
+    min-height: 6em;;
+}
+
+.navbar-collapse{
+    display: flex;
+    justify-content: end;
+    padding-right: 4%;
+}
+
+.footer{
+    min-height: 4em;
+    margin-top: 1em;;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2em !important;
+    
+}
+
+form{
+    padding-left: 9em !important;
+    padding-right: 9em !important;
+}
+
